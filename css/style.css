@@ -1,0 +1,98 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ad343e;
+}
+
+.brand {
+    border: solid #ad343e 3px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+div.secoes {
+    padding: 20px; 
+    margin-top:10px; 
+    margin-bottom:10px; 
+    border-radius: 5px;
+}
+
+.about {
+    margin: 10px 0 10px 0;
+}
+
+.about .my_img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.about .my_img a:hover {
+    text-decoration: none;
+}
+
+.out_of_the_box {
+    font-size: 12px;
+    color: #333333;
+}
+
+.social_networks {
+    justify-content: center;
+}
+
+.social_networks ul {
+    text-align: left;
+    font-size: 40px;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+.social_networks ul li a{
+    margin-right: 15px;
+}
+
+.social_networks ul li a:hover{
+    text-decoration: none;
+}
+
+.social_networks ul li a:hover{
+    text-decoration: none;
+    color:#666666;
+    transition: 0.3s;
+}
+
+.social_networks ul li a i:hover{
+    text-decoration: none;
+    color:#333333;
+    transition: 0.3s;
+}
+
+.instagram{
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;            
+}
+
+.twitter{
+    color: #70c2e9;
+}
+
+.linkedin{
+    color: #007ab9;
+}
+
+.github{
+    color: black;
+}
+
+.expertise h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.expertise i {
+    text-align: center;
+    font-size: 5em;
+    padding-right: 15px;
+}
